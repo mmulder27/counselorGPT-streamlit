@@ -1,4 +1,3 @@
 langchain
 openAI
 streamlit
-pinecone
