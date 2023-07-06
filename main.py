@@ -31,6 +31,7 @@ chain = load_qa_chain(llm, chain_type="stuff")
 #Configure frontend
 st.set_page_config(page_title="CounselorGPT", page_icon=":robot:")
 st.header("CounselorGPT")
+st.write("Try CounselorGPT2.0: [link](https://counselorgpt2.streamlit.app)")
 st.markdown("### Ask me a question. Imagine you are having a conversation with the UCLA Course Catalog.")
 
 #Create function to get user's question
