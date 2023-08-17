@@ -1,5 +1,2 @@
-langchain
-openAI
 streamlit
-pinecone-client
-streamlit_autorefresh
+
