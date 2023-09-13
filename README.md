@@ -1,6 +1,6 @@
 # counselorGPT1.0
 TASK: 
-Create chatbot with knowledge of the UCLA course registrar. Students should be able to query the chatbot about course offerings that match their interests, class prerequisites, and major/minor course requirements.
+Create chatbot with knowledge of the 2022-2023 UCLA course catalog. Students should be able to query the chatbot about course offerings that match their interests, class prerequisites, and major/minor course requirements.
 Implementation:
 Step #1: From langchain.document_loaders, import UnstructuredPDFLoader. Download a PDF of the 2022-2023 UCLA course catalog (https://registrar.ucla.edu/file/b833e6ec-61b7-4b7e-961e-02af00520497).
 Step #2: From langchain.text_splitter, import RecursiveCharacterTextSplitter. Split the UCLA catalog PDF into 400-character chunks with 200-character overlaps.
