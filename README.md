@@ -9,6 +9,7 @@ Step #4: Store embeddings vectors in a Pinecone cloud vector database.
 Step #5: From langchain.llms, import OpenAI. Initialize LLM with custom OpenAI API Key.
 Step #6: From langchain.chains.question_answering, import load_qa_chain. Perform a similairty search on the Pinecone vector database to retrieve the character chunks most relevant to the student's query. Then feed that chunk into a LangChain "chain" interface and call its "run" function.
 Step #7: Get back a response capturing the essence of the relevant catalog chunk in the conversational style of a "GPT3.5-turbo"-powered chatbot.
+Step #8: Deploy on Streamlit.
 
 Final product: https://counselorgpt.streamlit.app/
 Application taken down in July 2023 after release of updated version.
