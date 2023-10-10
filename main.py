@@ -7,7 +7,8 @@ Created on Sun May  7 20:22:21 2023
 """
 import streamlit as st
 
-#CounselorGPT1.0 is no longer operational.
+#NOTE: CounselorGPT1.0 is no longer operational.
+
 #Configure frontend
 st.set_page_config(page_title="CounselorGPT", page_icon=":robot:")
 st.header("CounselorGPT")
