@@ -8,7 +8,7 @@ Created on Sun May  7 20:22:21 2023
 import streamlit as st
 
 #NOTE: CounselorGPT1.0 is no longer operational and its code was deleted. 
-#A similar product can now be created in 5 minutes using Dropchat (https://app.dropchat.co/)
+#A similar product can now be created in 5 minutes using Dropchat (https://app.dropchat.co/) or Wonderchat (https://wonderchat.io/).
 
 #Configure frontend
 st.set_page_config(page_title="CounselorGPT", page_icon=":robot:")
